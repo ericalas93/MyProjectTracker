@@ -14,6 +14,7 @@
 		81D0C76026F2BC2700E74E67 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81D0C75E26F2BC2700E74E67 /* Main.xcdatamodeld */; };
 		81D0C76226F2BDD600E74E67 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D0C76126F2BDD600E74E67 /* DataController.swift */; };
 		81D0C76426F2BE0E00E74E67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D0C76326F2BE0E00E74E67 /* HomeView.swift */; };
+		81D0C76826F2BF1000E74E67 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D0C76726F2BF1000E74E67 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		81D0C75F26F2BC2700E74E67 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		81D0C76126F2BDD600E74E67 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		81D0C76326F2BE0E00E74E67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		81D0C76526F2BF0600E74E67 /* MyProjectTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyProjectTracker.entitlements; sourceTree = "<group>"; };
+		81D0C76726F2BF1000E74E67 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D0C76826F2BF1000E74E67 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,7 @@
 			children = (
 				81D0C74E26F2BBA100E74E67 /* MyProjectTracker */,
 				81D0C74D26F2BBA100E74E67 /* Products */,
+				81D0C76626F2BF1000E74E67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,7 @@
 		81D0C74E26F2BBA100E74E67 /* MyProjectTracker */ = {
 			isa = PBXGroup;
 			children = (
+				81D0C76526F2BF0600E74E67 /* MyProjectTracker.entitlements */,
 				81D0C74F26F2BBA100E74E67 /* MyProjectTrackerApp.swift */,
 				81D0C76326F2BE0E00E74E67 /* HomeView.swift */,
 				81D0C75126F2BBA100E74E67 /* ContentView.swift */,
@@ -76,6 +82,14 @@
 				81D0C75626F2BBA200E74E67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81D0C76626F2BF1000E74E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D0C76726F2BF1000E74E67 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyProjectTracker/MyProjectTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyProjectTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = FQZEM45HL6;
@@ -301,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyProjectTracker/MyProjectTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyProjectTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = FQZEM45HL6;
