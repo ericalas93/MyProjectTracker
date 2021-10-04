@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		81078D9F2703C71A00439D24 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81078D9E2703C71A00439D24 /* ProjectsView.swift */; };
+		81078DA1270A207700439D24 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81078DA0270A207700439D24 /* Item-CoreDataHelpers.swift */; };
+		8175820E270A232700315FDD /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175820D270A232700315FDD /* Project-CoreDataHelpers.swift */; };
 		81D0C75026F2BBA100E74E67 /* MyProjectTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D0C74F26F2BBA100E74E67 /* MyProjectTrackerApp.swift */; };
 		81D0C75226F2BBA100E74E67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D0C75126F2BBA100E74E67 /* ContentView.swift */; };
 		81D0C75426F2BBA200E74E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D0C75326F2BBA200E74E67 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		81078D9E2703C71A00439D24 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		81078DA0270A207700439D24 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		8175820D270A232700315FDD /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		81D0C74C26F2BBA100E74E67 /* MyProjectTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProjectTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D0C74F26F2BBA100E74E67 /* MyProjectTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectTrackerApp.swift; sourceTree = "<group>"; };
 		81D0C75126F2BBA100E74E67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				81D0C76326F2BE0E00E74E67 /* HomeView.swift */,
 				81078D9E2703C71A00439D24 /* ProjectsView.swift */,
 				81D0C75126F2BBA100E74E67 /* ContentView.swift */,
+				81078DA0270A207700439D24 /* Item-CoreDataHelpers.swift */,
+				8175820D270A232700315FDD /* Project-CoreDataHelpers.swift */,
 				81D0C75E26F2BC2700E74E67 /* Main.xcdatamodeld */,
 				81D0C76126F2BDD600E74E67 /* DataController.swift */,
 				81D0C75326F2BBA200E74E67 /* Assets.xcassets */,
@@ -166,10 +172,12 @@
 			files = (
 				81078D9F2703C71A00439D24 /* ProjectsView.swift in Sources */,
 				81D0C76026F2BC2700E74E67 /* Main.xcdatamodeld in Sources */,
+				8175820E270A232700315FDD /* Project-CoreDataHelpers.swift in Sources */,
 				81D0C76226F2BDD600E74E67 /* DataController.swift in Sources */,
 				81D0C75226F2BBA100E74E67 /* ContentView.swift in Sources */,
 				81D0C76426F2BE0E00E74E67 /* HomeView.swift in Sources */,
 				81D0C75026F2BBA100E74E67 /* MyProjectTrackerApp.swift in Sources */,
+				81078DA1270A207700439D24 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
